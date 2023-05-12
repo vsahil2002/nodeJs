@@ -1,0 +1,12 @@
+{
+    "name": "John McExpress",
+    "addresses": {
+      "work": {
+        "country": "express-validator land"
+      }
+    },
+    "siblings": [{ "name": "Maria von Validator" }],
+    "websites": {
+      "www.example.com": { "dns": "1.2.3.4" }
+    }
+  }

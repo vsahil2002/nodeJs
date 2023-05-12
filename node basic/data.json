@@ -1,0 +1,10 @@
+{
+    "name":"sahil",
+    "lastName":"vasoya",
+    "mobileNumber":"8785454548",
+    "address":"kal ana ho",
+    "hobbies":{
+        "game":"cricket",
+        "reading":"novel"
+    }
+}
