@@ -1,6 +1,3 @@
-// const { events } = require("../models");
-
-// module.exports = (app) => {
     const express = require('express');
     const router = express.Router();
   
@@ -8,11 +5,9 @@
    
     router.post("/register", userController.register)
     router.post("/login", userController.login)
-    router.post("/updatepassword/:id", userController.updatePassword)
+    router.put("/updatepassword/:id", userController.updatePassword)
     router.post("/logout/:id", userController.logout)
-
-
-
+    router.post("/forgotpassword", userController.forgotpassword)
 
     module.exports = router ;
  

@@ -2,7 +2,6 @@ const Event = require("./events.model");
 
 module.exports = (sequelize, Sequelize) => {
   const User = sequelize.define("users", {
-    // kai locho nthi
     id: {
       allowNull: false,
       autoIncrement: true,
@@ -29,8 +28,7 @@ module.exports = (sequelize, Sequelize) => {
       type: Sequelize.DATE,
     },
   });
-  User.hasMany(Event, { foreignKey: "userId" });   
+  // User.hasMany(Event, { foreignKey: "userId" });
 
   return User;
 };
-
